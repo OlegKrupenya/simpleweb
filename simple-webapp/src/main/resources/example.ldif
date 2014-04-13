@@ -1,0 +1,39 @@
+dn: dc=example,dc=com
+objectclass: dcObject
+objectclass: organization
+o: Example Company
+dc: example
+
+dn: cn=Manager,dc=example,dc=com
+objectclass: organizationalRole
+cn: Manager
+
+# USER ENTRY
+dn: cn=Jack Wallen,dc=example,dc=com
+cn: Jack Wallen
+objectClass: person
+sn: Wallen
+
+# USER ENTRY
+dn: cn=Sheldon Cooper,dc=example,dc=com
+cn: Sheldon Cooper
+objectClass: person
+sn: Cooper
+
+# USER ENTRY
+dn: cn=Leonard Hofstadter,dc=example,dc=com
+cn: Leonard Hofstadter
+objectClass: person
+sn: Hofstadter
+
+# USER ENTRY
+dn: cn=Howard Wolowitz,dc=example,dc=com
+cn: Howard Wolowitz
+objectClass: person
+sn: Wolowitz
+
+# USER ENTRY
+dn: cn=Rajesh Koothrappali,dc=example,dc=com
+cn: Rasjesh Koothrappali
+objectClass: person
+sn: Koothrappali
