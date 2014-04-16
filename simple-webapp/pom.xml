@@ -21,7 +21,7 @@
     </dependency>
     <dependency>
       <groupId>com.testdev</groupId>
-      <artifactId>simple-weather</artifactId>
+      <artifactId>simple-dao</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>
